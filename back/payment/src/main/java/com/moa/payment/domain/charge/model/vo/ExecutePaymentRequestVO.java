@@ -15,6 +15,7 @@ import java.util.UUID;
 public class ExecutePaymentRequestVO {
 
     private UUID merchantId;
+    private UUID requestCode;
     private List<PaymentCardInfoVO> paymentInfoList;
 
 }
