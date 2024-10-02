@@ -19,5 +19,4 @@ public class PaymentResultCardInfoVO {
     private long benefitBalance;
     private long remainedBenefit;
     private BenefitDetailVO benefitDetail;
-
 }
