@@ -2,6 +2,7 @@ package com.moa.payment.domain.charge.model.dto;
 
 import lombok.*;
 
+import java.util.List;
 import java.util.UUID;
 
 @Builder
@@ -10,5 +11,5 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GetPaymentLogRequestDto {
-    private UUID memberId;
+    private List<UUID> cardId;
 }
