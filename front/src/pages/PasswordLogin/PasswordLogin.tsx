@@ -209,16 +209,6 @@ const PasswordLogin: React.FC = () => {
             );
             setPassword("");
           }
-        } else if (mode === "Pay") {
-          if (true) {
-            // 결제 로직 처리
-          } else {
-            suffleKeysPad();
-            setMent(
-              "일치하지 않는 비밀번호입니다.\n다시 비밀번호를 입력해주세요."
-            );
-            setPassword("");
-          }
         } else if (mode === "Join") {
           suffleKeysPad();
           setIsDoubleCheck(true);
